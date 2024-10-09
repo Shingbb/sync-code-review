@@ -103,7 +103,7 @@
                     <archive>
                         <manifest>
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-                            <mainClass>plugin.shing.sync.code.review.sdk.OpenAiCodeReview</mainClass>
+                            <mainClass>plugin.shing.sdk.OpenAiCodeReview</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

@@ -53,7 +53,7 @@ public class OpenAiCodeReview {
         System.out.println("评审代码：" + diffCode);
 
         // 输出版本
-        System.out.println("检出代码V2.0");
+        System.out.println("检出代码V3.0");
     }
 
 }
