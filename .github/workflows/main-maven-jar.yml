@@ -20,7 +20,7 @@ jobs:
       - name: Set up JDK 11
         uses: actions/setup-java@v2
         with:
-          distribution: 'adopt'
+          distribution: 'temurin'
           java-version: '11'
 
       - name: Build with Maven
@@ -29,5 +29,5 @@ jobs:
       - name: Copy openai-code-review-sdk JAR
         run: mvn dependency:copy -Dartifact=plugin.shing:openai-code-review:1.0 -DoutputDirectory=./libs
 
-      - name: Run  code Review
-        run: java jar ./libs/openai-code-review-sdk-1.0.jar
+      - name: Run code review
+        run: java -jar ./libs/openai-code-review-1.0.jar
