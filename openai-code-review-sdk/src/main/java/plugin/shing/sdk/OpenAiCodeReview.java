@@ -50,7 +50,10 @@ public class OpenAiCodeReview {
         System.out.println("Exit code: " + exitCode);
 
         // 打印评审代码
-        System.out.println("评审代码：" + diffCode.toString());
+        System.out.println("评审代码：" + diffCode);
+
+        // 输出版本
+        System.out.println("检出代码V2.0");
     }
 
 }
