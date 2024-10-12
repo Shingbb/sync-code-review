@@ -37,3 +37,4 @@ build/
 ### Mac OS ###
 .DS_Store
 /.idea/
+/openai-code-review-test/src/main/java/plugin/shing/constant/KeyConstant.java
